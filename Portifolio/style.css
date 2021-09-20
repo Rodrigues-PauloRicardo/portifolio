@@ -23,15 +23,16 @@ a{
 }
 a:hover 
 {
-     color:#ffff; 
+    color: #ffff; 
      text-decoration:none; 
      cursor:pointer;  
 }
+button{
+    border-radius: 5px;
+    padding: 4px;
+    background-color: orange;
 
-
-
-
-
+}
 #apresent{
     display:flex;
     flex-direction: column;
@@ -93,18 +94,20 @@ h1{
     font-size: 2rem;  
 }
 
-.msg{                                /* msg apresentação    */
+.msg{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;                              /* msg apresentação    */
     margin-top: 5px;
     color: #ffff;
     font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    line-height: 1.5;
+   
 }
 
-.redes{                              /* minhas redes    */
+#redes{                              /* minhas redes    */
     margin-top: 20px;
-    display: flex;
+    display: flx;
     justify-content: center;
     text-align: center;
     font-size: 2rem;  
@@ -118,19 +121,23 @@ h1{
     align-items: center;
     justify-content: space-around;    
 }
-.git{
+.rede :hover{        
+    -webkit-transform: scale(1.2);
+       transform: scale(1.2)	
+ }
+.img-git{
     width: 8vh;
 }
-.git{
+.img-linkedin{
     width: 8vh;
 }
-.email{
-    width: 10vh;
-}
-.telefone{
+.img-email{
     width: 8vh;
 }
-.project{
+.img-telefone{
+    width: 6vh;
+}
+#project{
     margin-top: 10px;
     display: flex;
     justify-content: center;
@@ -138,7 +145,7 @@ h1{
     color: orange; 
 }
 .img-project{
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
