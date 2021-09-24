@@ -116,7 +116,7 @@ h1{
 .rede{                              /* icones    */
     height: 13vh;
     background-color: rgb(12, 12, 12);
-    margin-top: 5px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: space-around;    
@@ -124,7 +124,7 @@ h1{
 .rede :hover{        
     -webkit-transform: scale(1.2);
        transform: scale(1.2)	
- }
+ } 
 .img-git{
     width: 8vh;
 }
@@ -150,14 +150,26 @@ h1{
     justify-content: space-around;
 }
 
-
-
-
-
-
-
-
-
+.box-fundo{
+    display: flex;
+    flex-direction: column;
+    height: 23vh;
+    background-color: rgb(12, 12, 12);
+}
+.title-project{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+}
+span{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+}
 
 
 
@@ -188,20 +200,144 @@ h1{
     height: 100px;
 }
 
-
-
-
-
-
-footer{
+#title-skills{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 15px;
+    font-size: 2rem;  
+    color: orange; 
+}
+#title-learning{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;  
+    color: orange; 
 }
 
 
 
 
 
+
+.box-skills{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7vw;
+    height: 14vh;
+    background-color: rgb(12, 12, 12);
+    padding: .5%;
+}
+
+.box-skills :hover{        
+    -webkit-transform: scale(1.2);
+       transform: scale(1.2)	
+ } 
+
+
+/*   -----------------------------------------------------*/
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#img-skills{
+    width: 6vw;
+    height: 12vh;
+}
+/*   -----------------------------------------------------*/
+
+
+#img-bootstrap{
+    width: 100%;
+    height: 20vh;
+}
+#img-placa{
+    width: 100%;
+    height: 18vh;
+}
+#img-unidombosco{
+    width: 20vw;
+    min-width:200px;
+}
+
+/*   -----------------------------------------------------*/
+
+.box-unid{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    background-color: rgb(12, 12, 12);
+}
+
+.box-unid :hover{        
+        -webkit-transform: scale(1.1);
+           transform: scale(1.1)	
+     } 
+
+#box-destaque{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.und{
+    font-size: 1.2rem;
+    color: #ffff;
+}
+
+
+
+
+
+/*   -----------------------------------------------------*/
+
+
+
+
+footer{
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.col-xs-2{
+    display: flex;   
+    justify-content: space-around; 
+    margin-top: 10px;
+    width: 100%;
+    display: flex;    
+    
+}
+.box-col{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    width: 20vw;
+    height: 100%;
+    
+}
+.img-box {
+    width: 100%;
+    height: 23vh;
+}
+.title{
+    color: #ffff;
+    font-size: 1.2rem;
+    padding: 2px;
+}
 
