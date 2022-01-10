@@ -2,8 +2,8 @@
 
 <h2>Portifólio criado com objetivo de aprendizado e apresentação a quem interessar.</h2>
 
-<h2>Status: Em construção...</h2>
-
+<h2>🚧 Status:  🚀 Em construção...  🚧.</h2>
+ 
 Tabela de conteúdos
 =================
 <!--ts-->
