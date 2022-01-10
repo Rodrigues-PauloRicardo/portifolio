@@ -15,7 +15,7 @@ Tabela de conteúdos
    * [Apresentação](#apresent)
 <!--te-->
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0a8ce824-9217-47e1-8b45-14d7e612ca32/deploy-status)](https://app.netlify.com/sites/portifolio-pauloricardo/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0a8ce824-9217-47e1-8b45-14d7e612ca32/deploy-status)](https://portifolio-pauloricardo.netlify.app/)
 
 ### 🛠 Tecnologias
 HTML, CSS e Javascript
