@@ -1,19 +1,18 @@
-# Meu portifolio
+# Meu portifólio
 
-# Portifólio criado com objetivo de aprendizado e apresentação a quem interessar.
+<h2>Portifólio criado com objetivo de aprendizado e apresentação a quem interessar.</h2>
 
-# Status do Projeto
-Em construção...
+<h2>Status: Em construção...</h2>
 
 Tabela de conteúdos
 =================
 <!--ts-->
    * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#redes)
-   * [Instalação](#project)
-   * [Como usar](#title-skills)
-   * [Pre Requisitos](#title-learning)
-   * [Local files](#apresent)
+   * [Minhas Redes](#redes)
+   * [Meus Projetos](#project)
+   * [Minhas Skills](#title-skills)
+   * [Estudando...](#title-learning)
+   * [Apresentação](#apresent)
 <!--te-->
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0a8ce824-9217-47e1-8b45-14d7e612ca32/deploy-status)](https://app.netlify.com/sites/portifolio-pauloricardo/deploys)
@@ -22,8 +21,8 @@ Tabela de conteúdos
 HTML, CSS e Javascript
 
 
-MIT License
-Copyright (c) <2022> <Paulo Ricardo>
+<h2>MIT License</h2>
+Copyright (c) <2022 -- Paulo Ricardo>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
