@@ -16,6 +16,7 @@ body{
     align-items: center; 
     background-color: rgb(14, 13, 13);
     height: 30px;
+    max-height: 500px;
     color: orange;     
 }
 @media screen and (max-width: 650px) {
@@ -24,11 +25,21 @@ body{
       z-index: 1;
       height: 90%;
       width: 20vw;
-      display: flex;
+      display: flex;      
       flex-direction: column;
-      margin-top: 1vh;
-      font-size: 3vh;     
+      text-align: center;
       }
+    }
+    @media screen and (max-width: 500px) {
+        .container {
+          padding: 0;
+          margin-top: 0;
+          position: relative;
+          width: 100%;
+          display: flex; 
+          flex-direction: column;       
+          font-size: 3.5vh;                
+        }
     }
 a{
     display: flex;
@@ -43,20 +54,36 @@ a:hover
      text-decoration:none; 
      cursor:pointer;  
 }
-
+@media screen and (max-width: 500px) {
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        padding: 7px;
+        width: 100%;
+        background-color: black;
+    }
+}  
 button{
     font-size: .7rem;
     height: 4vh;
     border-radius: 5px;
-    padding: 4px;
     background-color: orange;
 }
 @media screen and (max-width:650px) {
     button{
-        width: 10vw;
-        height: 10vh;        
+        width: 15vw;
+        height: 5vh;        
     }
-}          
+}
+@media screen and (max-width:500px) {
+    button{
+        font-size: .8rem;
+        width: 35vw;
+        min-height: 6vh;        
+    }
+}           
 /*-------------------------------------------------------------imagem fundo.....------*/
 #imgTela{
     margin: 0;
@@ -65,18 +92,31 @@ button{
     height: 500px;
     overflow: hidden;
 }
+@media screen and (max-width:500px) {
+    #imgTela{
+        display: none;               
+    }
+} 
 /*-------------------------------------------------------------Olá /foto perfil / developer ....------*/
 #boxapresent{  
     display: flex;
     flex-direction: column;
     align-items: center;    
     position: absolute;
-    top: 80px;
-    right: 10%;
+    top: 70px;
+    right: 5%;
     color: orange;
 }
+@media screen and (max-width:500px) {
+    #boxapresent{
+        margin-left: 10%;
+        margin-top:-50px;
+        position: relative;
+    }
+} 
 #imgFoto{    
     height: 38vh;
+    max-height: 300px;
     margin-top: 40px; 
 }
 h1{  
@@ -98,10 +138,10 @@ h1{
       /* The typewriter cursor effect */
       @keyframes blink-caret {
         from, to { border-color: transparent }
-        50% { border-color: orange; }
-      }
+        100% { border-color: orange; }
+      }   
       
-      h2{
+      h2{          
           margin-top: 10px;
       }
 /*-------------------------------------------------------------Sobre Mim ....------*/
@@ -112,6 +152,12 @@ h1{
     justify-content: center;
     font-size: 2rem;  
 }
+@media screen and (max-width:500px) {
+    #sobre{
+        margin-top: 80px;
+        position: relative;
+    }
+} 
 .msg{ 
     display: flex;
     justify-content: center;
@@ -120,6 +166,7 @@ h1{
     color: #ffff;
     font-size: 1.2rem;
     line-height: 1.5;
+    padding: 5px;
    }
 /*-------------------------------------------------------------Minhas Redes ....------*/
 #redes{                              
@@ -135,11 +182,18 @@ h1{
     height: 13vh;
     background-color: rgb(12, 12, 12);
     display: flex;
-    align-items: center;
-    
-    justify-content: space-around; 
-       
+    align-items: center;    
+    justify-content: space-around;        
 }
+@media screen and (max-width:500px) {
+    .rede{
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+
 .rede :hover{        
     -webkit-transform: scale(1.2);
        transform: scale(1.2)	
@@ -164,6 +218,12 @@ h1{
     font-size: 2rem;
     color: orange; 
 }
+@media screen and (max-width:500px) {
+    #project{        
+        margin-top: 100px;
+        display: flex;
+    }
+} 
 .col-xs-2{
     display: flex;   
     justify-content: space-around; 
@@ -171,6 +231,14 @@ h1{
     width: 100%;
     display: flex; 
 }
+@media screen and (max-width:500px) {
+    .col-xs-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .box-col{
     margin-top: 10px;
     display: flex;
@@ -181,10 +249,17 @@ h1{
     width: 20vw;
     height: 100%;    
 }
+@media screen and (max-width:500px) {
+    a:link{
+        width: 320px;
+    }
+} 
+
 .img-box {
     width: 100%;
     height: 23vh;
 }
+
 .title{
     color: #ffff;
     font-size: 1.2rem;
@@ -212,11 +287,7 @@ h1{
     justify-content: space-around;
     margin-top: 20px;
 }
-@media screen and (max-width:550px) {
-    .skills{
-        
-   }
-}
+
 #img-skills{
     width: 6vw;
     height: 12vh;
@@ -240,6 +311,21 @@ h1{
         width: 10vw;
    }
 }
+@media screen and (max-width:650px) {
+    .box-skills{
+        margin: 5px;
+        width: 30vw;
+        border: 1px solid white;
+   }
+}
+@media screen and (max-width:400px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+} 
+
 #img-skills{
     width: 90%;
     height: 12vh;
@@ -290,6 +376,7 @@ footer{
     text-align: center;
     margin-top: 30px;
 }
+
 
 
 
