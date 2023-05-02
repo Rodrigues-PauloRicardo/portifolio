@@ -374,7 +374,6 @@ h1{
 /*---------------------------------------------------------------Footer.....------*/
 footer{
     padding: 15px;
-    border: 1px solid red;
     color: #ffff;
     display: flex;
     justify-content: center;
