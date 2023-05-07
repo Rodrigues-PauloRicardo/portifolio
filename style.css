@@ -194,8 +194,6 @@ h1{
         flex-direction: column;
     }
 } 
-
-
 .rede :hover{        
     -webkit-transform: scale(1.2);
        transform: scale(1.2)	
@@ -366,11 +364,6 @@ h1{
     font-size: 2.2vh;
     color: #ffff;
 }
-
-
-
-
-
 /*---------------------------------------------------------------Footer.....------*/
 footer{
     padding: 15px;
